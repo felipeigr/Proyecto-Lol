@@ -61,3 +61,7 @@ body{
 img{
     position: relative;
 }
+.img{
+    border-radius: 50px;
+
+}
