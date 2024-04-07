@@ -1,4 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Invocador</title>
+    <link rel="stylesheet" href="style/stylesInvocador.css">
+</head>
+<body class="f_vista_invocador">
 
+    <a href="Vista1.html">Volver</a>
+
+    <div class="container">
+        <h1 class="vista_invocador_h1">Buscar Invocador</h1>
+        <form id="searchForm" class="vista_invocador_form">
+            <label for="summonerName">Nombre del Invocador:</label>
+            <input type="text" id="summonerName" name="summonerName" required><br>
+
+            <label for="tagLine" class="vista_invocador_label">Tagline:</label>
+            <input type="text" id="tagLine" name="tagLine" required><br>
+
+            <label for="region">Región:</label>
+            <select id="server" name="region">
+                <option value="AMERICAS">AMERICAS</option>
+                <option value="EUROPE">EUROPA</option>
+                <option value="ASIA">ASIA</option>
+                <!-- Agrega más opciones según las regiones que necesites -->
+            </select><br>
 
             <label for="execute_against">Select Region to Execute Against</label>
             <select id= "region" name="execute_against" style="width: 200px">
